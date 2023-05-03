@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "llmlib"
+version = "0.1.0"
+description = "A helper library for working with LLMs"
+authors = ["Rushabh Doshi <radoshi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
