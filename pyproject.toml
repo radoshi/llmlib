@@ -7,7 +7,22 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^1.10.7"
 
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.0.264"
+black = "^23.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+pytest-watch = "^4.2.0"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
