@@ -67,9 +67,9 @@ class TemplateLibrary(BaseModel):
         path = Path(filename_or_dir)
         library = cls()
         if path.is_dir():
-            for filename in path.glob("*.json"):
+            for filename in path.glob("**/*.json"):
                 library.add(Template.parse_file(filename))
-            for filename in path.glob("*.toml"):
+            for filename in path.glob("**/*.toml"):
                 library.add(Template.parse_toml(filename))
         else:
             if path.suffix == ".toml":
