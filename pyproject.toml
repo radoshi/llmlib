@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 pydantic = "^1.10.7"
+tomli = "^2.0.1"
 
 
 [tool.poetry.group.lint.dependencies]

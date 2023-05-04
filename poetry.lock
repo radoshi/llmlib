@@ -392,7 +392,7 @@ files = [
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -455,4 +455,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "89613aaef71b92ea3bf28a5f237241204578f4388f2811222bf9c350a30d6ea4"
+content-hash = "c79f825bb0ef9c211e4fdfaddb640fdfebbdf83337e096903f2863abed350bca"
